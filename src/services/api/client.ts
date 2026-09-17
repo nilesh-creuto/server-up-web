@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://server-up-api.onrender.com';
 
 function getToken(): string | null {
   return localStorage.getItem('token');
